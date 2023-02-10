@@ -77,33 +77,3 @@ body {
   font-weight: normal;
 }
 
-.card-e {
-  opacity: 0;
-  animation: slide 0.5s forwards;
-
-  margin: 0;
-  padding: 5px 10px;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background: #fff;
-  background: linear-gradient(to bottom, #fff, #fff);
-  color: #ea8694;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.6) 0px 2px 4px -1px;
-}
-
-
-@keyframes slide {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate(-50%, -100%);
-    transform: translate(-50%, -100%);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
-  }
-}

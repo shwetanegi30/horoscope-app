@@ -101,7 +101,6 @@ const Card = (props) => {
           Lucky time: <div>{props.lucky_time}</div>
         </span>
       </div>
-      <p className="card-e">See yeah tomorrow</p>
     </div>
   );
 };
