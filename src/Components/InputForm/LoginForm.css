@@ -1,0 +1,106 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.app {
+    font-size: 26px;
+    color: white;
+    font-family: 'nunito', sans-serif;
+    font-weight: 700;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: rgb(0 0 0 / 13%);
+}
+
+.login {
+    width: 420px;
+    border-radius: 8px;
+    box-shadow: 1px 1px #888888;
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+
+}
+
+.form {
+    margin: 20px;
+}
+
+input::placeholder {
+    color: #d46f7c;
+}
+
+.text {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.email {
+    margin-top: 15px;
+}
+
+.sign {
+    margin-top: 20px;
+}
+
+#btn {
+    margin-top: 36px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #d46f7c;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+#btn:hover {
+    color: #ea8694;
+    ;
+    background-color: white;
+}
+
+
+select {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+.select {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+select {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #ea8694;
+    cursor: pointer;
+}
+
+.select::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ea8694;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: 0.25s all ease;
+    transition: 0.25s all ease;
+}
+
+.select:hover::after {
+    color: #f2b2ba;
+}
+
+@media screen and (max-width: 800px) {
+    .login {
+        width: 325px;
+        height: 543px;
+    }
+}
